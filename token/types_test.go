@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/eoscanada/eos-go"
 	"github.com/stretchr/testify/assert"
+	"github.com/tsfdsong/eos-go"
 )
 
 //func TestPackAction(t *testing.T) {

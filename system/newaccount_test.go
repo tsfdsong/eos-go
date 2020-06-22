@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"testing"
 
-	eos "github.com/eoscanada/eos-go"
-	"github.com/eoscanada/eos-go/ecc"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	eos "github.com/tsfdsong/eos-go"
+	"github.com/tsfdsong/eos-go/ecc"
 )
 
 // TODO: Move this test to the `system` contract.. and take out

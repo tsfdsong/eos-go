@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/eoscanada/eos-go/btcsuite/btcutil/base58"
+	"github.com/tsfdsong/eos-go/btcsuite/btcutil/base58"
 )
 
 var keyMaterialDecoders = map[CurveID]keyMaterialDecoder{

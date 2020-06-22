@@ -9,7 +9,7 @@ import (
 
 	"time"
 
-	"github.com/eoscanada/eos-go"
+	"github.com/tsfdsong/eos-go"
 )
 
 type Client struct {

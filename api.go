@@ -16,7 +16,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/eoscanada/eos-go/ecc"
+	"github.com/tsfdsong/eos-go/ecc"
 )
 
 type API struct {

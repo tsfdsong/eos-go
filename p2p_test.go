@@ -10,9 +10,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/eoscanada/eos-go/ecc"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/tsfdsong/eos-go/ecc"
 )
 
 func TestP2PMessage_UnmarshalBinaryRead(t *testing.T) {

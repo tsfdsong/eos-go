@@ -6,8 +6,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/eoscanada/eos-go/btcsuite/btcd/btcec"
-	"github.com/eoscanada/eos-go/btcsuite/btcutil/base58"
+	"github.com/tsfdsong/eos-go/btcsuite/btcd/btcec"
+	"github.com/tsfdsong/eos-go/btcsuite/btcutil/base58"
 )
 
 type innerWASignature struct {

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	eos "github.com/eoscanada/eos-go"
 	"github.com/stretchr/testify/assert"
+	eos "github.com/tsfdsong/eos-go"
 )
 
 func FixmeTestPackedTransaction_Unpack(t *testing.T) {

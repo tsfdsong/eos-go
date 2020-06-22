@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/eoscanada/eos-go/ecc"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/tsfdsong/eos-go/ecc"
 )
 
 func TestChecksum256String(t *testing.T) {
@@ -177,7 +177,7 @@ func TestSimplePacking(t *testing.T) {
 	}
 	cnt, err := MarshalBinary(&M{
 		Acct: AccountName("bob"),
-		A:    []*S{&S{"hello"}, &S{"world"}},
+		A:    []*S{{"hello"}, {"world"}},
 	})
 
 	require.NoError(t, err)
@@ -348,7 +348,7 @@ func TestAuthorityBinaryMarshal(t *testing.T) {
 	a := Authority{
 		Threshold: 2,
 		Keys: []KeyWeight{
-			KeyWeight{
+			{
 				PublicKey: key,
 				Weight:    5,
 			},

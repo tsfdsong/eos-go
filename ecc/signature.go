@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/eoscanada/eos-go/btcsuite/btcutil/base58"
+	"github.com/tsfdsong/eos-go/btcsuite/btcutil/base58"
 )
 
 const SignatureK1Prefix = "SIG_K1_"

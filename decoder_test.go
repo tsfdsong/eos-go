@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/eoscanada/eos-go/ecc"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/tsfdsong/eos-go/ecc"
 )
 
 func TestDecoder_Remaining(t *testing.T) {

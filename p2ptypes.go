@@ -9,8 +9,8 @@ import (
 	"encoding/hex"
 	"encoding/json"
 
-	"github.com/eoscanada/eos-go/ecc"
 	"github.com/tidwall/gjson"
+	"github.com/tsfdsong/eos-go/ecc"
 )
 
 type P2PMessage interface {

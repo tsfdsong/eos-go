@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/eoscanada/eos-go/ecc"
+	"github.com/tsfdsong/eos-go/ecc"
 
 	"github.com/tidwall/gjson"
 
