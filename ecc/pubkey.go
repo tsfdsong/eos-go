@@ -15,7 +15,7 @@ var PublicKeyPrefix = "PUB_"
 var PublicKeyK1Prefix = "PUB_K1_"
 var PublicKeyR1Prefix = "PUB_R1_"
 var PublicKeyWAPrefix = "PUB_WA_"
-var PublicKeyPrefixCompat = "EOS"
+var PublicKeyPrefixCompat = "VEX"
 
 var publicKeyDataSize = new(int)
 
@@ -76,10 +76,10 @@ type pubkeyReaderManifest struct {
 }
 
 var pubKeyReaderManifests = map[string]pubkeyReaderManifest{
-	PublicKeyPrefixCompat: pubkeyReaderManifest{CurveK1, newInnerK1PublicKey},
-	PublicKeyK1Prefix:     pubkeyReaderManifest{CurveK1, newInnerK1PublicKey},
-	PublicKeyR1Prefix:     pubkeyReaderManifest{CurveR1, newInnerR1PublicKey},
-	PublicKeyWAPrefix:     pubkeyReaderManifest{CurveWA, newInnerWAPublicKey},
+	PublicKeyPrefixCompat: {CurveK1, newInnerK1PublicKey},
+	PublicKeyK1Prefix:     {CurveK1, newInnerK1PublicKey},
+	PublicKeyR1Prefix:     {CurveR1, newInnerR1PublicKey},
+	PublicKeyWAPrefix:     {CurveWA, newInnerWAPublicKey},
 }
 
 func NewPublicKey(pubKey string) (out PublicKey, err error) {
